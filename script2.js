@@ -13,7 +13,7 @@ submitButton.addEventListener('click', (event) => {
   console.log(email);
   //console.log(password);
   // Send the email and password to the REST API for authentication
-  fetch("http://jd-project-api.us-east-1.elasticbeanstalk.com/api/v1/login", {
+  fetch("https://jd-project-api.us-east-1.elasticbeanstalk.com/api/v1/login", {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
